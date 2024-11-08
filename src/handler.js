@@ -84,7 +84,7 @@ const editNoteByIdHandler = (request, h) => {
 
         const resp = h.response({
             status: 'success',
-            data: 'Catatan berhasil diperbarui',
+            message: 'Catatan berhasil diperbarui',
         });
         resp.code(200);
         return resp;
